@@ -1,0 +1,27 @@
+FlowRouter.route('/',{
+   name: 'home',
+   action() {
+	   BlazeLayout.render('home');
+   }
+});
+
+FlowRouter.route('/y/2015',{
+   name: 'data2015',
+   action() {
+	   BlazeLayout.render('data2015');
+   }
+});
+
+FlowRouter.route('/y/2016',{
+   name: 'data2016',
+   action() {
+	   BlazeLayout.render('data2016');
+   }
+});
+
+FlowRouter.route('/dashboard',{
+   name: 'dashboard',
+   action() {
+	   BlazeLayout.render('dashboard');
+   }
+});
